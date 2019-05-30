@@ -21,11 +21,18 @@ p {
     padding: 0;
 }
 section{
-    display: block;
-    padding: 0;
-    border: 0;
+    width: 91%;
+    border-top: 1px dashed grey;
+    margin: 15px auto;
 }
-.tiles{
-    display: flex;
-    flex-wrap: wrap;
+
+article img {
+    padding: 4px;
+  background: #666;
+  border-radius: 20px;
+}
+article {
+    float: left;
+    margin: 50px;
+    margin-right: 110px;
 }
